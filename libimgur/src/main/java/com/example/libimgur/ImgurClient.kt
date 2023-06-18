@@ -10,7 +10,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 
 object ImgurClient {
 
-    public const val API_KEY = "e220ec9fda37e39"
+    const val API_KEY = "e220ec9fda37e39"
 
     private val httpClient: OkHttpClient by lazy {
         OkHttpClient.Builder().addInterceptor {

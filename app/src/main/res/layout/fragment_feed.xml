@@ -7,10 +7,14 @@
     tools:context=".ui.feed.FeedFragment">
 
     <TextView
-        android:id="@+id/tvFeedType"
+        android:id="@+id/feedTypeTextView"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Hello" />
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/feedRecyclerView"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
